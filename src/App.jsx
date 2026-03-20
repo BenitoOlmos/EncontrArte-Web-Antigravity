@@ -203,7 +203,7 @@ export default function App() {
             </span>
           </div>
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-            <a href="https://forms.gle/XLivpMU23eJTuGMZ7" target="_blank" className="bg-gradient-to-r from-[#eab308] to-[#ca8a04] text-[#1f3c5b] px-10 py-5 rounded-2xl text-xl font-extrabold hover:shadow-[0_15px_35px_rgba(234,179,8,0.4)] hover:-translate-y-1 transition-transform duration-300 w-full sm:w-auto text-center border border-white/20">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSduVn3XR-A_RLDJTvkt9Vvu9zoXQXvPGSE1Lp4Fo37pdWb9Ow/viewform" target="_blank" className="bg-gradient-to-r from-[#eab308] to-[#ca8a04] text-[#1f3c5b] px-10 py-5 rounded-2xl text-xl font-extrabold hover:shadow-[0_15px_35px_rgba(234,179,8,0.4)] hover:-translate-y-1 transition-transform duration-300 w-full sm:w-auto text-center border border-white/20">
               Postular Ahora
             </a>
             <a href="https://wa.me/56987257003" target="_blank" className="glass text-white px-8 py-5 rounded-2xl text-lg font-semibold hover:bg-white hover:text-[#1f3c5b] hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto text-center !bg-white/10">
@@ -488,8 +488,37 @@ export default function App() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <a href="https://forms.gle/XLivpMU23eJTuGMZ7" target="_blank" className="bg-gradient-to-r from-[#eab308] to-[#ca8a04] text-[#1f3c5b] px-12 py-5 rounded-2xl text-xl font-extrabold shadow-[0_10px_30px_rgba(234,179,8,0.4)] hover:shadow-[0_15px_40px_rgba(234,179,8,0.6)] hover:-translate-y-1 transition-transform duration-300 w-full sm:w-auto hover:scale-105 border border-[#ca8a04]/50 text-center">Ir al Formulario Directo</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSduVn3XR-A_RLDJTvkt9Vvu9zoXQXvPGSE1Lp4Fo37pdWb9Ow/viewform" target="_blank" className="bg-gradient-to-r from-[#eab308] to-[#ca8a04] text-[#1f3c5b] px-12 py-5 rounded-2xl text-xl font-extrabold shadow-[0_10px_30px_rgba(234,179,8,0.4)] hover:shadow-[0_15px_40px_rgba(234,179,8,0.6)] hover:-translate-y-1 transition-transform duration-300 w-full sm:w-auto hover:scale-105 border border-[#ca8a04]/50 text-center">Ir al Formulario Directo</a>
             <a href="https://wa.me/56987257003" target="_blank" className="bg-white border-2 border-[#1f3c5b] text-[#1f3c5b] px-12 py-5 rounded-2xl text-xl font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 hover:bg-[#f8f6f3] transition-all duration-300 w-full sm:w-auto text-center hover:scale-105">Hablar por WhatsApp</a>
+          </div>
+        </div>
+      </section>
+
+      {/* SECCIÓN INSTAGRAM */}
+      <section className="py-24 px-6 bg-[#f8f6f3]">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <Instagram className="w-8 h-8 text-[#E1306C]" />
+                <span className="text-[#E1306C] font-bold tracking-widest uppercase text-sm">@conservatorio.encontrarte</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-extrabold text-[#1f3c5b]">Síguenos en Instagram</h2>
+            </div>
+            <a href="https://www.instagram.com/conservatorio.encontrarte/" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#F56040] text-white px-8 py-3 rounded-full font-bold hover:shadow-[0_10px_20px_rgba(225,48,108,0.3)] hover:-translate-y-1 transition-all duration-300">
+              Ver Perfil
+            </a>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[heroImg1, aboutImg4, heroImg3, aboutImg5].map((img, i) => (
+              <a key={i} href="https://www.instagram.com/conservatorio.encontrarte/" target="_blank" rel="noopener noreferrer" className="relative aspect-square rounded-2xl overflow-hidden group shadow-md hover:shadow-xl transition-shadow duration-300">
+                <img src={img} alt="Instagram" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-gradient-to-tr from-[#833AB4]/60 via-[#FD1D1D]/60 to-[#F56040]/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <Instagram className="w-12 h-12 text-white" />
+                </div>
+              </a>
+            ))}
           </div>
         </div>
       </section>
