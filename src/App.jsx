@@ -194,15 +194,20 @@ export default function App() {
           <p className="text-lg md:text-xl mb-10 font-medium text-[#c4d7d3] uppercase tracking-widest border-l-2 border-[#3e7c6d] pl-4 inline-block">Viña del Mar - Región de Valparaíso</p>
           <div className="max-w-3xl mx-auto mb-12">
             <p className="text-lg md:text-xl leading-relaxed text-white/80 font-light">
-              Un proyecto de educación musical comunitaria e inclusiva que ofrece formación artística de calidad entre 6 y 17 años, sin barreras económicas ni pruebas de ingreso.
+              Un proyecto de educación musical comunitaria e inclusiva que ofrece formación artística de calidad entre 6 y 25 años.
             </p>
           </div>
+          <div className="mb-10 text-center">
+            <span className="inline-block bg-[#eab308] text-[#1f3c5b] font-extrabold px-6 py-2 rounded-full text-lg shadow-[0_0_20px_rgba(234,179,8,0.5)] animate-pulse border border-[#ca8a04]/50">
+              ¡Postulaciones Abiertas! - Cupos Limitados
+            </span>
+          </div>
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-            <a href="https://wa.me/56987257003" target="_blank" className="bg-gradient-to-r from-[#3e7c6d] to-[#2d5b4f] text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:shadow-[0_10px_30px_rgba(62,124,109,0.4)] hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto text-center border border-white/10">
-              Quiero más información
+            <a href="https://forms.gle/XLivpMU23eJTuGMZ7" target="_blank" className="bg-gradient-to-r from-[#eab308] to-[#ca8a04] text-[#1f3c5b] px-10 py-5 rounded-2xl text-xl font-extrabold hover:shadow-[0_15px_35px_rgba(234,179,8,0.4)] hover:-translate-y-1 transition-transform duration-300 w-full sm:w-auto text-center border border-white/20">
+              Postular Ahora
             </a>
-            <a href="https://forms.gle/XLivpMU23eJTuGMZ7" target="_blank" className="glass text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-white hover:text-[#1f3c5b] hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto text-center !bg-white/10">
-              Postular al Conservatorio
+            <a href="https://wa.me/56987257003" target="_blank" className="glass text-white px-8 py-5 rounded-2xl text-lg font-semibold hover:bg-white hover:text-[#1f3c5b] hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto text-center !bg-white/10">
+              Quiero más información
             </a>
           </div>
         </div>
@@ -250,7 +255,7 @@ export default function App() {
           
           <div className="grid md:grid-cols-2 gap-8 mb-16 text-left">
             {[
-              { icon: Users, text: 'Niñas, niños y jóvenes entre 6 y 17 años', title: 'Edades' },
+              { icon: Users, text: 'Niñas, niños y jóvenes entre 6 y 25 años', title: 'Edades' },
               { icon: Sparkles, text: 'Con o sin experiencia musical previa', title: 'Experiencia' },
               { icon: Home, text: 'Familias que buscan formación accesible y de calidad', title: 'Familias' },
               { icon: UsersRound, text: 'Estudiantes con interés por el trabajo en grupo', title: 'Comunidad' }
@@ -290,7 +295,7 @@ export default function App() {
           </div>
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-10">
-              <p className="text-xl leading-relaxed text-gray-700 font-light">Se imparten comodamente en las instalaciones de la <strong className="font-semibold text-[#1f3c5b]">Universidad de Las Américas (UDLA)</strong>, Campus Los Castaños.</p>
+              <p className="text-xl leading-relaxed text-gray-700 font-light">Se imparten cómodamente en instalaciones adecuadas en <strong className="font-semibold text-[#1f3c5b]">Viña del Mar</strong>.</p>
               
               <div className="bg-gradient-to-r from-[#3e7c6d] to-[#2d5b4f] text-[#f4f1ec] p-8 rounded-3xl premium-shadow hover:-translate-y-2 transition-all duration-300 relative overflow-hidden">
                 <MapPin className="absolute -right-4 -bottom-4 w-32 h-32 opacity-10" />
@@ -299,8 +304,8 @@ export default function App() {
                     <MapPin className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <p className="text-2xl font-bold mb-1">Campus Los Castaños</p>
-                    <p className="text-white/80 font-medium">7 Norte 1348, Viña del Mar</p>
+                    <p className="text-2xl font-bold mb-1">Viña del Mar</p>
+                    <p className="text-white/80 font-medium">Región de Valparaíso</p>
                   </div>
                 </div>
               </div>
@@ -308,16 +313,12 @@ export default function App() {
               <div className="space-y-6">
                 <div className="flex gap-4 items-center bg-white p-5 rounded-2xl shadow-sm border border-gray-100">
                   <Building2 className="w-8 h-8 text-[#3e7c6d] shrink-0" />
-                  <p className="text-lg font-medium text-gray-700">Espacio educativo adecuado, seguro y céntrico.</p>
-                </div>
-                <div className="flex gap-4 items-center bg-white p-5 rounded-2xl shadow-sm border border-gray-100">
-                  <ShieldCheck className="w-8 h-8 text-[#3e7c6d] shrink-0" />
-                  <p className="text-lg font-medium text-gray-700">Respaldo institucional que garantiza calidad.</p>
+                  <p className="text-lg font-medium text-gray-700">Espacio educativo adecuado, seguro y de fácil acceso.</p>
                 </div>
               </div>
             </div>
             <div className="rounded-[2.5rem] overflow-hidden premium-shadow h-[500px] relative group">
-              <img src={udlaImg} alt="UDLA" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <img src={aboutImg1} alt="Viña del Mar" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#1f3c5b]/80"></div>
               <p className="absolute bottom-8 left-8 text-white font-bold text-xl drop-shadow-lg">Sede Viña del Mar</p>
             </div>
@@ -467,49 +468,21 @@ export default function App() {
         </div>
       </section>
 
-      {/* SECCIÓN ORGANIZACIONES */}
-      <section className="py-24 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/noise-lines.png')] mix-blend-overlay opacity-30 z-0"></div>
-        <div className="absolute inset-0 bg-gradient-to-br from-[#f8f6f3]/90 via-white to-[#f8f6f3]/90 z-0"></div>
-        
-        <div className="max-w-6xl mx-auto text-center relative z-10">
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#3e7c6d]/10 to-[#3e7c6d]/5 px-6 py-2 rounded-full mb-8 border border-[#3e7c6d]/20 backdrop-blur-sm">
-            <Heart className="w-5 h-5 text-[#3e7c6d] fill-[#3e7c6d]" />
-            <span className="text-sm font-bold text-[#3e7c6d] uppercase tracking-widest">Colaboración Institucional</span>
-          </div>
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-16 text-[#1f3c5b]">Organizaciones que lo hacen posible</h2>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { name: 'Corporación EncontrArte', logo: orgLogo1, role: 'Organización Impulsora' },
-              { name: 'Corp. de Solidaridad Estudiantil', logo: orgLogo2, role: 'Apoyo Social Principal' },
-              { name: 'Universidad de Las Américas', logo: orgLogo3, role: 'Sede y Patrocinio' }
-            ].map((org, i) => (
-              <div key={i} className="glass border-t border-l border-white/70 p-10 rounded-[2.5rem] hover:-translate-y-3 transition-transform duration-500 flex flex-col items-center group">
-                <div className="h-40 flex items-center justify-center mb-8 bg-white/50 w-full rounded-2xl p-4 group-hover:bg-white transition-colors duration-300">
-                  <img src={org.logo} alt={org.name} className="max-h-full max-w-full object-contain filter drop-shadow-sm group-hover:scale-110 transition-transform duration-500" />
-                </div>
-                <h4 className="font-extrabold text-2xl mb-2 text-[#1f3c5b]">{org.name}</h4>
-                <p className="text-lg text-[#3e7c6d] font-semibold">{org.role}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* SECCIÓN POSTULAR */}
       <section id="postular" className="py-24 px-6 bg-white relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
         <div className="max-w-5xl mx-auto text-center">
-          <span className="text-[#3e7c6d] font-bold tracking-widest uppercase text-sm mb-2 block">El Próximo Paso</span>
-          <h2 className="text-4xl md:text-6xl font-extrabold mb-16 text-[#1f3c5b]">¿Cómo participar?</h2>
+          <span className="text-[#eab308] font-bold tracking-widest uppercase text-sm mb-2 block animate-pulse">¡No te quedes fuera - Cupos Limitados!</span>
+          <h2 className="text-4xl md:text-6xl font-extrabold mb-16 text-[#1f3c5b]">Postulaciones Abiertas</h2>
           
           <div className="grid md:grid-cols-3 gap-10 mb-20 relative">
             <div className="hidden md:block absolute top-12 left-1/6 right-1/6 h-[2px] bg-gray-100 z-0 border-t-2 border-dashed border-[#c4d7d3]"></div>
             
             {[
               { icon: MessageCircle, t: 'Consultar', d: 'Escríbenos por WhatsApp para resolver tus dudas.' },
-              { icon: UserPlus, t: 'Postular', d: 'Inscríbete en el formulario cuando abran cupos.' },
+              { icon: UserPlus, t: 'Postular', d: 'Llena el formulario en línea. ¡Las postulaciones están abiertas!' },
               { icon: Users, t: 'Unirse', d: 'Espera el llamado y súmate a la comunidad.' }
             ].map((step, i) => (
               <div key={i} className="relative z-10 flex flex-col px-4 group">
@@ -525,8 +498,8 @@ export default function App() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <a href="https://forms.gle/XLivpMU23eJTuGMZ7" target="_blank" className="bg-gradient-to-r from-[#1f3c5b] to-[#2c537b] text-white px-12 py-5 rounded-2xl text-xl font-bold shadow-[0_10px_30px_rgba(31,60,91,0.3)] hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto hover:scale-105 border border-[#1f3c5b]/10 text-center">Formulario de Postulación</a>
-            <a href="https://wa.me/56987257003" target="_blank" className="bg-white border-2 border-[#3e7c6d] text-[#3e7c6d] px-12 py-5 rounded-2xl text-xl font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 hover:bg-[#f8f6f3] transition-all duration-300 w-full sm:w-auto text-center hover:scale-105">Hablar por WhatsApp</a>
+            <a href="https://forms.gle/XLivpMU23eJTuGMZ7" target="_blank" className="bg-gradient-to-r from-[#eab308] to-[#ca8a04] text-[#1f3c5b] px-12 py-5 rounded-2xl text-xl font-extrabold shadow-[0_10px_30px_rgba(234,179,8,0.4)] hover:shadow-[0_15px_40px_rgba(234,179,8,0.6)] hover:-translate-y-1 transition-transform duration-300 w-full sm:w-auto hover:scale-105 border border-[#ca8a04]/50 text-center">Ir al Formulario Directo</a>
+            <a href="https://wa.me/56987257003" target="_blank" className="bg-white border-2 border-[#1f3c5b] text-[#1f3c5b] px-12 py-5 rounded-2xl text-xl font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 hover:bg-[#f8f6f3] transition-all duration-300 w-full sm:w-auto text-center hover:scale-105">Hablar por WhatsApp</a>
           </div>
         </div>
       </section>
@@ -550,7 +523,7 @@ export default function App() {
               </div>
               <div className="pt-1">
                 <p className="font-bold text-xl mb-2 text-white">Sede Viña del Mar</p>
-                <p className="text-white/70 text-lg leading-relaxed">Campus Los Castaños UDLA <br/> 7 Norte 1348, Chile</p>
+                <p className="text-white/70 text-lg leading-relaxed">Viña del Mar <br/> Región de Valparaíso, Chile</p>
               </div>
             </div>
             
