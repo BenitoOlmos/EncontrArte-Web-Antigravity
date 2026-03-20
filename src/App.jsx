@@ -228,7 +228,7 @@ export default function App() {
                 <p>Propósito: <strong className="font-semibold text-[#1f3c5b]">democratizar el acceso</strong> a la formación musical, ofreciendo clases gratuitas en un entorno seguro y respetuoso.</p>
                 <div className="p-6 bg-white rounded-2xl shadow-lg border-l-4 border-[#3e7c6d] mt-8">
                   <p className="text-[#3e7c6d] font-medium italic text-lg hover:translate-x-1 transition-transform cursor-default">
-                    "Aquí, la música es una herramienta de desarrollo humano, emocional, social y comunitario."
+                    "Forjando identidades a través del lenguaje universal de la música."
                   </p>
                 </div>
               </div>
@@ -272,17 +272,7 @@ export default function App() {
             ))}
           </div>
 
-          <div className="relative bg-gradient-to-br from-[#1f3c5b] to-[#2c537b] text-[#f4f1ec] p-10 md:p-16 rounded-[2.5rem] shadow-2xl overflow-hidden group hover:scale-[1.02] transition-transform duration-500">
-            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5 mix-blend-overlay"></div>
-            <div className="relative z-10">
-              <div className="grid sm:grid-cols-3 gap-6 text-xl md:text-2xl font-extrabold mb-8">
-                <div className="flex flex-col items-center gap-2"><Sparkles className="text-[#3e7c6d]" /> <span>Solo postular</span></div>
-                <div className="flex flex-col items-center gap-2"><Trophy className="text-[#3e7c6d]" /> <span>Sin pruebas</span></div>
-                <div className="flex flex-col items-center gap-2"><Heart className="text-[#3e7c6d]" /> <span>Sin mensualidades</span></div>
-              </div>
-              <p className="text-xl md:text-3xl text-[#c4d7d3] font-medium italic">"Lo único que pedimos es compromiso y ganas de aprender"</p>
-            </div>
-          </div>
+
         </div>
       </section>
 
@@ -392,17 +382,17 @@ export default function App() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center bg-gradient-to-br from-[#1f3c5b] to-[#2c537b] text-[#f4f1ec] rounded-[2.5rem] overflow-hidden premium-shadow group">
             <div className="p-10 md:p-16 space-y-8">
-              <h2 className="text-3xl md:text-4xl font-extrabold">No se necesita instrumento</h2>
-              <p className="text-xl text-white/80 font-light leading-relaxed">Contamos con instrumentos propios entregados en comodato (préstamo gratuito), asegurando igualdad de oportunidades desde el primer día.</p>
+              <h2 className="text-3xl md:text-4xl font-extrabold">Te invitamos a participar</h2>
+              <p className="text-xl text-white/80 font-light leading-relaxed">Súmate a nuestra vibrante comunidad musical donde podrás desarrollar y potenciar todo tu talento artístico en un ambiente colaborativo y estimulante.</p>
               
               <div className="space-y-6">
                 <div className="flex gap-5 items-start bg-white/10 p-5 rounded-2xl backdrop-blur-sm border border-white/5">
                   <HandHeart className="text-[#3e7c6d] shrink-0 w-8 h-8" />
-                  <p className="font-medium text-lg pt-1">La familia solo asume la responsabilidad de cuidarlo y acompañar el proceso.</p>
+                  <p className="font-medium text-lg pt-1">Acompañamiento constante y personalizado para que disfrutes y crezcas en tu proceso formativo.</p>
                 </div>
                 <div className="flex gap-5 items-start bg-white/10 p-5 rounded-2xl backdrop-blur-sm border border-white/5">
                   <Sparkles className="text-[#3e7c6d] shrink-0 w-8 h-8" />
-                  <p className="font-medium text-lg pt-1">Igualdad total de oportunidades, sin importar la situación económica.</p>
+                  <p className="font-medium text-lg pt-1">Descubre y perfecciona tu destreza en conjunto con otros jóvenes apasionados por la música.</p>
                 </div>
               </div>
             </div>
@@ -513,7 +503,7 @@ export default function App() {
               <Music className="w-12 h-12 text-[#c4d7d3]" />
             </div>
             <h3 className="text-4xl font-extrabold mb-4 tracking-tight">Conservatorio EncontrArte</h3>
-            <p className="text-2xl text-[#c4d7d3] italic font-light max-w-2xl mx-auto">"Formación musical comunitaria, gratuita y con profundo sentido humano"</p>
+            <p className="text-2xl text-[#c4d7d3] italic font-light max-w-2xl mx-auto">"Más que una disciplina, la música es el vehículo para el perfeccionamiento de la sensibilidad humana."</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 border-y border-white/10 py-12 mb-12">
